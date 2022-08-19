@@ -1,0 +1,213 @@
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsla(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-color: lightblue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+.container{ 
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.first-4{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;   
+    width: auto;
+}
+.column-1{
+    display: flex;
+}
+.column-2{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    border-radius: 5rem;
+    height: 5rem;
+    margin-right: 5px;
+}
+
+.header * {
+    display: inline-block;
+}
+.header-2 * {
+    display: inline-block;
+}
+.header-3 * {
+    display: inline-block;
+}
+.header-4 * {
+    display: inline-block;
+}
+.header-5 * {
+    display: inline-block;
+}
+
+.name-status * {
+    display: block;
+}
+.name-status-2 * {
+    display: block;
+}
+.name-status-3 * {
+    display: block;
+}
+.name-status-4 * {
+    display: block;
+}
+.name-status-5 * {
+    display: block;
+}
+
+.box-1{
+    background-color: var(--Moderate-violet);
+    color: var(--White);
+    width: 45rem;
+    height: 34rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    margin: 5px;
+    line-height: 1.5;
+    }
+.box-2{
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--White);
+    width: 30rem;
+    height: 34rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    margin: 5px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+.box-3{
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+    width: 30rem;
+    height: 34rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    margin: 5px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+.box-4{
+    background-color: var(--Very-dark-blackish-blue);
+    color: var(--White);
+    width: 45rem;
+    height: 34rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    margin: 5px;
+    line-height: 1.5;
+}
+.box-5{
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+    width: 40rem;
+    height: 69rem;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    margin: 3px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+h1 > .box-5 {
+    font-weight: 700px;
+}
+h1{
+font-size: 17px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 600;
+margin-top: -10px;
+}
+h3{
+font-size: 12px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 600;
+}
+.testimony{
+  margin-top: 1rem;
+  margin-bottom: 10px; 
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem; 
+}
+.story{
+    color:rgba(255, 255, 255, 0.384)
+}
+.attribution{
+  display: block;
+  margin: 50px; 
+}
+@media only screen and (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1 1 400px;
+        width:2;
+        margin: 7rem;
+    }
+    .first-4{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        width: auto;
+        margin-right: 1.5rem;
+       
+    }
+    .box-1{
+        height: auto;
+        width: 35rem;
+    }
+    .box-2{
+        height: auto;
+        width: 35rem;
+    }.box-3{
+        height: auto;
+        width: 35rem;
+    }.box-4{
+        height: auto;
+        width: 35rem;
+    }
+    .box-5{
+        height: auto;
+        width: 35rem;
+        margin-right: 20px;
+    }
+    .column-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-2{
+        display: flex;
+        flex-direction: column; 
+    }
+ }
