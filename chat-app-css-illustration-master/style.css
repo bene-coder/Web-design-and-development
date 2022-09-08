@@ -1,0 +1,293 @@
+:root {
+  --Pale-Violet: hsl(276, 100%, 81%);
+  --Moderate-Violet: hsl(276, 55%, 52%);
+  --Desaturated-Dark-Violet: hsl(271, 15%, 43%);
+  --Grayish-Blue: hsl(206, 6%, 79%);
+  --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+  --Dark-Grayish-Violet: hsl(270, 7%, 70%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grayish-Violet: hsl(270, 20%, 96%);
+  --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+  --Very-Light-Magenta: hsl(289, 100%, 72%);
+  --Light-Magenta: hsl(293, 100%, 63%);
+  --Light-Violet: hsl(264, 100%, 61%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+html{
+  background-color: var(--Light-Grayish-Violet);
+}
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap");
+
+.container {
+  display: flex;
+  position: relative;
+  right: 5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100rem;
+  height: 52rem;
+  background-color: var(--Light-Grayish-Violet);
+  font-family: "League Spartan", sans-serif;
+  
+
+}
+.svg-div{
+  height: 47rem;
+  width: 25rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 1rem;
+  background-color: var(--Moderate-Violet);
+  border-radius: 0px 0px 22rem 22rem;
+ 
+}
+.first-section {
+  border: 0.7rem solid var(--White);
+  border-radius: 30px;
+  height: auto;
+  width: 21rem;
+  background-color: var(--Light-Grayish-Violet);
+  position: relative;
+  right: 2rem;
+}
+.top-design {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 0px 15px 15px;
+  width: 13rem;
+  height: 1.5rem;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.profile-section {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    hsla(264, 100%, 61%, 1) 0%,
+    hsla(293, 93%, 68%, 1) 100%
+  );
+  color: var(--White);
+  height: 6rem;
+  border-radius: 20px 20px 10px 10px;
+  align-items: center;
+  padding: 15px 7px 7px 7px;
+}
+.avatar > img {
+  border: 1px solid var(--White);
+  margin-right: 1.3rem;
+  border-radius: 50px;
+  height: 2.7rem;
+}
+.first-message {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--Dark-Grayish-Violet);
+  color: var(--Moderate-Violet);
+  width: 14rem;
+  height: 3.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+.second-message {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--Dark-Grayish-Violet);
+  color: var(--Moderate-Violet);
+  width: 14rem;
+  height: 3.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+.dogs-image {
+  display: flex;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+img {
+  margin: 0rem 0.4rem;
+  border-radius: 12px;
+  height: 3.5rem;
+}
+.third-message {
+  display: flex;
+  justify-content: end;
+  background-color: var(--White);
+  color: var(--Desaturated-Dark-Violet);
+  width: 14rem;
+  height: 3.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+.fourth-message {
+  display: flex;
+  background-color: var(--White);
+  color: var(--Desaturated-Dark-Violet);
+  width: 14rem;
+  height: 2.3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 12px;
+}
+.fifth-message {
+  display: flex;
+  background-color: var(--Dark-Grayish-Violet);
+  color: var(--Moderate-Violet);
+  width: 14rem;
+  height: 5.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+.price-tag-1 {
+  width: 15rem;
+  height: 3rem;
+  background: linear-gradient(
+    90deg,
+    hsla(293, 93%, 68%, 1) 45%,
+    hsla(264, 100%, 61%, 1) 100%
+  );
+  margin: 0.5rem;
+  color: var(--White);
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 15px;
+  align-items: left;
+}
+.price-tag-1 > span {
+  margin-right: 0.5rem; 
+}
+.price-tag-1 > b {
+  font-size: 17px;
+}
+.price-tag-2 {
+  width: 15rem;
+  height: 3rem;
+  background: linear-gradient(
+    90deg,
+    hsla(293, 93%, 68%, 1) 45%,
+    hsla(264, 100%, 61%, 1) 100%
+  );
+  margin: 0.5rem;
+  color: var(--White);
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.price-tag-2 > span {
+  margin-right: 0.5rem; 
+}
+.price-tag-2 > b {
+  font-size: 17px;
+}
+.second-section {
+  height: auto;
+  width: 20rem;
+  margin: 0rem 5rem;
+}
+.second-section > h1 {
+  color: var(--Very-Dark-Desaturated-Violet);
+  font-size: 37px;
+}
+.second-section > p {
+  color: var(--Dark-Grayish-Violet);
+  font-size: 17px;
+  line-height: 1.5;
+}
+.message-box {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 90%;
+  height: 2.7rem;
+  margin: 0.5rem 1.5rem;
+  padding: 0.4rem 1rem;
+  background-color: var(--White);
+  color: var(--Grayish-Blue);
+  border-radius: 20px;
+}
+p {
+  font-size: 15px;
+  /*color: var(--Dark-Grayish-Violet);*/
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.message-box > span{
+  display: flex;
+  justify-content: center;
+  background-color: hsl(239, 95%, 24%);
+  height: 1.8rem;
+  border-radius: 150px;
+  padding: 3px;
+}
+
+@media only screen and  (max-width: 850px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+    width: 100%;
+    height: auto;
+  }
+  .first-section{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .second-section{
+    position: relative;
+    width: 25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+  }
+  .svg-div{
+    height: 35rem;
+    position: absolute;
+    
+  }
+  .second-section > h1 {
+    font-size: 42px;
+    margin-bottom: 1.5rem;
+  }
+  .second-section > p {
+    font-size: 20px;
+    line-height: 1.9;
+  }
+}
+@media only screen and  (max-width: 375px){
+  .container {
+   width: 10rem;
+   transform: translateX(20%);
+  }
+  
+}
+/*-Pale-Violet-(sub-heading-at the top of the app UI): hsl(276, 100%, 81%);
+- Moderate Violet (chat on the left): hsl(276, 55%, 52%)
+- Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
+- Grayish Blue (placeholder text): hsl(206, 6%, 79%)
+- Very Dark Desaturated Violet (main heading): hsl(271, 36%, 24%)
+- Dark Grayish Violet (paragraph): hsl(270, 7%, 64%)
+
+- White: hsl(0, 0%, 100%)
+- Light Grayish Violet (app background): hsl(270, 20%, 96%)
+- Very Dark Desaturated Violet (submit button background): hsl(271, 36%, 24%)
+- Very Light Magenta (radio button outline): hsl(289, 100%, 72%)
+*/
