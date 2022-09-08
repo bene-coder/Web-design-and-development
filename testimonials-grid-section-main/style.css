@@ -27,6 +27,8 @@ html {
     position: relative;
     align-items: center;
     justify-content: center;
+    width: auto;
+    top: 5rem;
 }
 .first-4{
     display: flex; 
@@ -171,7 +173,7 @@ font-weight: 600;
         flex-direction: column;
         flex-wrap: wrap;
         flex: 1 1 400px;
-        width:2;
+        width: auto;
         margin: 7rem;
     }
     .first-4{
@@ -180,7 +182,7 @@ font-weight: 600;
         position: relative;
         height: auto;
         width: auto;
-        margin-right: 1.5rem;
+       
        
     }
     .box-1{
