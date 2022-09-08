@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(185, 75%, 39%);
+}
+.container {
+  display: flex;
+  position: relative;
+  top: 9rem;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+.image {
+  border-radius: 5px;
+}
+.content {
+  display: flex;
+  color: hsl(229, 23%, 23%);
+  padding: 2rem;
+}
+.content > h1 {
+  margin-right: 4rem;
+}
+.content > h3 {
+  margin-top: 0.6rem;
+}
+.country {
+  padding-bottom: 2rem;
+}
+.details {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3px;
+  width: 35rem;
+  border-radius: 0px 0px 20px 20px;
+}
+.header {
+  width: 50rem;
+  border-radius: 7px;
+}
+.header > img {
+  width: 35rem;
+  margin-left: 7.5rem;
+  border-radius: 20px 20px 0px 0px;
+}
+.image {
+  position: relative;
+  margin-top: -4.5rem;
+}
+.image > img {
+  height: 9rem;
+  border: 3px solid white;
+  border-radius: 100px;
+}
+.content > h1 h3 {
+  display: inline-block;
+}
+hr {
+  color: black;
+  width: 35rem;
+}
+h2 {
+  color: hsl(0, 0%, 59%);
+}
+
+.stats > div {
+  display: inline-block;
+  padding: 1.5rem 3.5rem;
+}
+.attribution {
+  position: relative;
+  top: 15rem;
+  right: 8rem;
+  font-size: 16px;
+}
+.svg-div-top {
+  position: absolute;
+  left: -20rem;
+  top: -35rem;
+}
+.svg-div-bottom {
+  position: absolute;
+  left: 60rem;
+  top: 25rem;
+}
+@media only screen and (max-width: 800px) {
+  .svg-div-top {
+    position: relative;
+    left: -30rem;
+    top: -75rem;
+  }
+  .svg-div-bottom {
+    position: absolute;
+    left: 30rem;
+    top: 0;
+  }
+}
