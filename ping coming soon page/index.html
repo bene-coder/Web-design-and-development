@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <img src="images\logo.svg" alt="">
+    <h1>We are launching <b>soon!</b></h1>
+  
+   <p> Subscribe and get notified</p>
+  </div>
+  <form action="#" id="form">
+    <label>
+      <div class="input-area">
+     <div class="input"> 
+      <input
+      type="text"
+      name="email"
+      id="email"
+      placeholder="Your email address" 
+    ><p class="invalid"><i>Please provide a valid email address</i></p></div>
+  <button class="button">Notify Me</button>
+  
+      </div>
+ <div class="illustration"> 
+  <img src="images\illustration-dashboard.png">
+  <div class="logo" style="display:flex; justify-content:center; margin-top:1rem; margin-bottom:3rem;">
+    <i class="lni lni-facebook-filled" style="font-size:36px; width:2rem;height:2rem; color:hsl(223, 87%, 63%); margin-right: 1rem;"></i>
+    <i class="fa fa-twitter  fa-inverse" style="font-size:36px; width:2rem;height:2rem; color:hsl(223, 87%, 63%); margin-right: 1rem;"></i>
+    <i class="fa fa-instagram" style="font-size:36px; width:2rem;height:2rem; color:hsl(223, 87%, 63%);"></i>
+  </div>
+ <div class="copyright" style="display:flex; justify-content:center">
+  <p style="color:hsl(223, 100%, 88%);">&copy; Copyright Ping. All rights reserved.</p>
+
+ </div>
+</div>
+</div>
+<script src="emailValidator.js"></script>
+</body>
+</html>
